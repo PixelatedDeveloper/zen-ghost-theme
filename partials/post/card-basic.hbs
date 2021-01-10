@@ -7,11 +7,6 @@
     <div class="col">
       <div class="card-block">
         <h2 class="card-title text-center"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
-        <div class="card-actions-top text-center">
-          {{#foreach tags}}
-          <a href="{{@site.url}}/tag/{{name}}" class="post-item-main">#{{name}}</a>
-          {{/foreach}}
-        </div>
         <p class="card-text">{{excerpt}}</p>
       </div>
       <hr />
