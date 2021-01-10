@@ -1588,11 +1588,11 @@ EXTERNAL libraries look-n-feel
   margin-right: 20px;
 }
 
-.fa-facebook {
+.fa-facebook-square {
   color: #3b5998;
 }
 
-footer div a .fa-facebook:hover {
+footer div a .fa-facebook-square:hover {
   color: #3b5998 !important;
 }
 
@@ -1616,7 +1616,7 @@ footer div a .fa-rss-square:hover {
 .fa-twitter,
 .fa-twitter-square,
 .fa-rss-square,
-.fa-facebook{
+.fa-facebook-square{
   margin-right: 10px;
 }
 
@@ -1674,7 +1674,7 @@ i.fas.fa-exclamation-circle.fa-2x {
   background: white;
 }
 
-.list-group-item-action .fa-facebook:hover,
+.list-group-item-action .fa-facebook-square:hover,
 .list-group-item-action .fa-twitter:hover,
 .list-group-item-action .fa-rss:hover {
   color: black !important;
