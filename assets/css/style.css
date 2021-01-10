@@ -1100,6 +1100,10 @@ footer ul li p {
   padding: 5px;
 }
 
+footer a i {
+  color: #aaa !important;
+}
+
 ul {
   list-style-type: none;
 }
