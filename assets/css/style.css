@@ -1577,6 +1577,10 @@ ul {
 EXTERNAL libraries look-n-feel
 
 *****************************************/
+.post-options-url .fa-play {
+	margin-right: 5px;
+}
+
 .fa-user-secret,
 .fa-tag {
   color: #b5b5b5;
@@ -1601,14 +1605,6 @@ footer div a .fa-twitter-square:hover {
   color: #1dcaff !important;
 }
 
-.fa-gitlab {
-  color: #fc6d27;
-}
-
-footer div a .fa-gitlab:hover {
-  color: #fc6d27 !important;
-}
-
 .fa-rss-square {
   color: #f26522;
 }
@@ -1620,9 +1616,7 @@ footer div a .fa-rss-square:hover {
 .fa-twitter,
 .fa-twitter-square,
 .fa-rss-square,
-.fa-facebook,
-footer .fa-gitlab,
-.fa-linkedin {
+.fa-facebook{
   margin-right: 10px;
 }
 
