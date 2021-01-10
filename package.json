@@ -1,0 +1,31 @@
+{
+  "name": "zen",
+  "description": "Zen",
+  "version": "0.0.1",
+  "engines": {
+      "ghost": ">=3.0.0",
+      "ghost-api": "v3"
+  },
+  "license": "MIT",
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.png",
+    "mobile": "assets/screenshot-mobile.png"
+  },
+  "author": {
+    "name": "Canitia",  
+    "email": "support@canitiathemes.com",
+    "url": "https://canitiathemes.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Canitia/cambre.git"
+  },
+  "bugs": "https://github.com/Canitia/cambre.git/issues",
+  "config": {
+      "posts_per_page": 6
+  },
+  "keywords": [
+    "ghost-theme",
+    "blog"
+  ]
+}

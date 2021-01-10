@@ -1,0 +1,40 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+  <div class="row h-100 page-row">
+  {{#post}}
+      <div class="col col-xs-12 col-md-12 col-lg-12 main-content">
+        <article>
+          <div class="post-head">
+                <h1 class="text-center post-title">{{title}}</h1>
+                <div class="post-subitems text-center">
+                  <i class="fas fa-clock"></i><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+                  <i class="fas fa-book"></i>{{reading_time seconds=(t "< 1 min read") minute=(t "1 min read") minutes=(t "% min read")}}
+                </div>
+          </div>
+
+         <div class="d-block d-sm-block d-md-block d-lg-block tag_head_wrap">
+          {{#if feature_image}}
+            <img class="tag_heading text-center" src="{{img_url feature_image}}" title="{{title}}" alt="{{title}}" />
+          {{/if}}
+          </div>
+
+          <div class="post-content">
+            {{content}}
+          </div>
+
+          <div class="cat-links">
+              {{#if tags}}
+                <div class="tagslist">
+                  {{#foreach tags}}
+                      <a href="{{@site.url}}/tag/{{name}}">#{{name}}</a>
+                    {{/foreach}}
+              </div>
+              {{/if}}<!-- end tags if -->
+          </div><!-- end cat links -->
+            {{> 'post/author-section'}}
+
+            {{> 'post/related-posts'}}
+        </article>
+    </div>
+{{/post}}
+</div>

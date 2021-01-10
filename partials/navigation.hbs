@@ -1,0 +1,33 @@
+<header class="container-fluid">
+<div class="navbar navbar-expand-lg navbar-dark justify-content-start">
+  <div class="top-div">
+    <nav class="navbar navbar-expand-sm navbar-dark" >
+  {{#if @site.logo}}
+    <div class="logo-fixed d-block d-sm-block d-md-block d-lg-block">
+      <a href="{{@site.url}}"><img src="{{@site.logo}}" alt="blog logo" class="logo-nav head-logo left" /></a>
+    </div>
+  {{else}}
+    <a href="{{@site.url}}" class="navbar-brand headerurl">{{@site.title}}</a>
+  {{/if}}
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">      
+            <!-- Loop through the navigation items -->
+    {{#foreach navigation}}
+    <li class="nav-item{{#if current}} active{{/if}}">
+        <a href="{{url absolute="true"}}" class="nav-link">{{label}}</a>
+    </li>
+    {{/foreach}}
+    <!-- End the loop -->
+      </ul>
+    </div>
+  </nav>
+  </div>
+</div>
+</header>
+
+
+

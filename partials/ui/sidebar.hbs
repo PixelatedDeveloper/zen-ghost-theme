@@ -1,0 +1,27 @@
+<div class="right-content col-md-4 col-lg-4 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+
+<div class="sidebar">
+    <h2 class="h2-sidebar">{{t "Featured"}}</h2>
+    <div class="h2-sidebar-border"></div>
+    <div class="list-group">
+
+        {{#get "posts" limit="5" filter="featured:true" order="published_at desc" as |featured| }}
+            {{#foreach posts}}
+                 <a href="{{url}}" class="list-group-item list-group-item-action"><i class="far fa-star"></i> {{title}}</a>
+                 {{else}}
+                 <p class="list-group-item list-group-item-action">{{t "No posts available"}}</p>
+            {{/foreach}}
+        {{/get}}
+    </div>
+
+    <h2 class="h2-sidebar">{{t "Popular Tags"}}</h2>
+        <div class="h2-sidebar-border"></div>
+    {{#get "tags" limit="5"}}
+        <div class="list-group">
+            {{#foreach tags}}
+                    <a href="{{url}}" class="list-group-item list-group-item-action text-muted">#{{name}}</a>
+            {{/foreach}}
+        </div>
+    {{/get}}
+</div>
+</div>
