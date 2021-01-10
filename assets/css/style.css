@@ -1090,6 +1090,12 @@ footer {
   margin-right: auto;
   color: black;
   font-weight: bold;
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.theme-name-footer p {
+    font-size: 11px;
 }
 
 footer .row a {
