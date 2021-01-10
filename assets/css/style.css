@@ -471,11 +471,6 @@ POST/ARTICLE CARD UI - main
 	font-size: 11px;
 	text-transform: uppercase;
 	color: #056c17 !important;
-	float: left;	
-}
-
-.post-author {
-  float: right;
 }
 
 .author-name {
