@@ -464,6 +464,14 @@ POST/ARTICLE CARD UI - main
   float: left;
 }
 
+.post-options-url {
+	font-weight: 600;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #056c17 !important;
+	float: left;	
+}
+
 .post-author {
   float: right;
 }
