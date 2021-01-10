@@ -1,73 +1,81 @@
 <!DOCTYPE html>
 <html lang="{{@site.lang}}">
-  <head>
-    <title>{{meta_title}}</title>
-    {{! Document Settings }}
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width" />
 
-    {{! Responsive Meta Tags }}
-    <!-- own stylesheet for general stuff -->
-    <link rel="stylesheet" href="{{asset "css/style.css"}}">
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        {{! Ghost outputs important style and meta data with this tag }}
-    {{ghost_head}}
+<head>
+  <title>{{meta_title}}</title>
+  {{! Document Settings }}
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  {{! Responsive Meta Tags }}
+  <!-- own stylesheet for general stuff -->
+  <link rel="stylesheet" href="{{asset " css/style.css"}}">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+    integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  {{! Ghost outputs important style and meta data with this tag }}
+  {{ghost_head}}
 </head>
 
-<body style="background-image: url({{asset "bgpattern.png"}});">
-<!-- main navigation -->
-{{navigation}}
-<main class="{{body_class}}" style="background-image: url({{asset 'bgpattern.png'}});">
-<div class="container-fluid">
+<body>
+  <!-- main navigation -->
+  {{navigation}}
+  <main class="{{body_class}}" style="background-image: url({{asset 'bgpattern.png'}});">
+    <div class="container-fluid">
 
-  {{#is "tag"}}
-  <div class="tag_head_wrap">
-    {{#tag}}
-    <div class="tag_heading text-center" style="background-image: url(  {{#if feature_image}}{{img_url feature_image}}{{/if}});">
-    <p class="posttitle">{{name}}</p>
-    </div>
-    {{/tag}}
-  </div>
-  {{/is}}
+      {{#is "tag"}}
+      <div class="tag_head_wrap">
+        {{#tag}}
+        <div class="tag_heading text-center"
+          style="background-image: url(  {{#if feature_image}}{{img_url feature_image}}{{/if}});">
+          <p class="posttitle">{{name}}</p>
+        </div>
+        {{/tag}}
+      </div>
+      {{/is}}
 
-  {{#is "home"}}
-    {{> 'post/card-featured'}}
-  {{/is}}
+      {{#is "home"}}
+      {{> 'post/card-featured'}}
+      {{/is}}
 
-  <div class="row">
+      <div class="row">
 
-    {{{body}}}
-  
-  </div>
-</div><!-- container fluid END! -->
-</main>
+        {{{body}}}
 
-<footer class="page-footer">
+      </div>
+    </div><!-- container fluid END! -->
+  </main>
+
+  <footer class="page-footer">
     {{> 'ui/footer'}}
-</footer>
-<!-- Compiled and minified JavaScript -->
-<!-- JavaScript and dependencies -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
-<script>
-  WebFont.load({
-    google: {
-      families: ['Merriweather+Sans', 'Hind+Madurai', 'Roboto+Slab']
-    }
-  });
-</script>
-    <script>
-        var images = document.querySelectorAll('.kg-gallery-image img');
-        images.forEach(function (image) {
-            var container = image.closest('.kg-gallery-image');
-            var width = image.attributes.width.value;
-            var height = image.attributes.height.value;
-            var ratio = width / height;
-            container.style.flex = ratio + ' 1 0%';
-        })
-    </script>
-{{ghost_foot}}
+  </footer>
+  <!-- Compiled and minified JavaScript -->
+  <!-- JavaScript and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"
+    integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Merriweather+Sans', 'Hind+Madurai', 'Roboto+Slab']
+      }
+    });
+  </script>
+  <script>
+    var images = document.querySelectorAll('.kg-gallery-image img');
+    images.forEach(function (image) {
+      var container = image.closest('.kg-gallery-image');
+      var width = image.attributes.width.value;
+      var height = image.attributes.height.value;
+      var ratio = width / height;
+      container.style.flex = ratio + ' 1 0%';
+    })
+  </script>
+  {{ghost_foot}}
 </body>
+
 </html>
