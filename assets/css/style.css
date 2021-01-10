@@ -411,7 +411,7 @@ POST/ARTICLE CARD UI - main
 ##########################################*/
 
 .card {
-  max-width: 780px;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
   border: 0 !important;
@@ -480,11 +480,6 @@ POST/ARTICLE CARD UI - main
 
 .post-content {
   margin-bottom: 50px;
-}
-
-.card-block {
-  background: white !important;
-  width: 100%;
 }
 
 .card-text {
