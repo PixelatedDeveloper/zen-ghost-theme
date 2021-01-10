@@ -104,8 +104,6 @@ p > em > a:hover,
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
   background: white;
 }
 
@@ -163,13 +161,6 @@ p > em > a:hover,
 
 .row.row-post {
   background-color: white !important;
-}
-
-.row {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  width: 100%;
-  max-width: 100%;
 }
 
 /* **************************************
