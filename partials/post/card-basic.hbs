@@ -12,18 +12,18 @@
           <a href="{{@site.url}}/tag/{{name}}" class="post-item-main">#{{name}}</a>
           {{/foreach}}
         </div>
-        <p class="card-text">{{excerpt words="52"}}...</p>
+        <p class="card-text">{{excerpt}}</p>
       </div>
       <div class="post-options">
         <a class="post-options-url" href="{{url}}">{{t "Read More"}}</a>
         <time datetime="{{date format=" YYYY-MM-DD"}}" class="post-item-main">{{date format="DD MMMM YYYY"}}</time>
-      </div>
-      <div class="post-author">
+        <div class="post-author">
         {{#foreach authors}}
         <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset " images/fallback-user.jpg"}}{{/if}}"
           class="homepage-avatar" alt="{{t " Avatar"}} {{name}}" title="{{t " Avatar"}} {{name}}">
         <a href="{{url}}" title="{{t " Written by"}} {{name}}" class="author-name">{{name}}</a>
         {{/foreach}}
+      </div>
       </div>
     </div>
   </div>
