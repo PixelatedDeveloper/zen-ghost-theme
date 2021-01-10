@@ -1,27 +1,25 @@
-{{!< default}}
-{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
-<div class="left-content col-sm-12 col-md-12 col-lg-8">
+{{!< default}} {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+  <div class="left-content col-12">
   {{#is "author"}}
-    {{#primary_author}}
-        <div class="author_wrap text-center">
-            <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
-            <h2 class="posttitle posttitle-author">{{name}}</h2>
-            <div class="socialfooter-top text-center socialfooter-top-author">
-              {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i class="fab fa-facebook fa-facebook-author fa-2x"></i></a>{{/if}}
-              {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i class="fab fa-twitter-square fa-twitter-author fa-2x"></i></a>{{/if}}
-            </div>
-        </div>
-    {{/primary_author}}
+  {{#primary_author}}
+  <div class="author_wrap text-center">
+    <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset " images/fallback-user.jpg"}}{{/if}}"
+      class="avatar-page avatar-page-author center-align" title="Image of {{name}}" alt="Image of {{name}}" />
+    <h2 class="posttitle posttitle-author">{{name}}</h2>
+    <div class="socialfooter-top text-center socialfooter-top-author">
+      {{#if facebook}}<a href="{{facebook_url}}" target="blank"><i
+          class="fab fa-facebook fa-facebook-author fa-2x"></i></a>{{/if}}
+      {{#if twitter}}<a href="{{twitter_url}}" target="blank"><i
+          class="fab fa-twitter-square fa-twitter-author fa-2x"></i></a>{{/if}}
+    </div>
+  </div>
+  {{/primary_author}}
   {{/is}}
-  
+
   <div class="main-content">
     {{> 'post/card-basic'}}
     {{#if pagination}}
-        {{pagination}}
+    {{pagination}}
     {{/if}}
   </div>
-</div>
-
-{{#is "home, author, tag"}}
-  {{> 'ui/sidebar'}}
-{{/is}}
+  </div>

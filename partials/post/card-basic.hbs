@@ -1,38 +1,31 @@
 <div class="row d-flex flex-column">
   {{#foreach posts}}
-      <div class="row tag-row-home d-block text-center">
-            {{#foreach tags}}
-              <a href="{{@site.url}}/tag/{{name}}">#{{name}}</a>
-            {{/foreach}}
-      </div>
-      
-      <h2 class="card-title text-center"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
-      <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>   
-      
-      <div class="card">
-          <div class="col">                     
-              <div class="card-block">
-                  <div class="card-actions-top text-center">
+  <a href="{{url}}"><img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
+      images/fallback-image.jpg"}}{{/if}}" class="homepage-image" alt="{{title}}" title="{{title}}"></a>
 
-                      {{#foreach authors}}
-                          <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="homepage-avatar" alt="{{t "Written by"}} {{name}}" title="{{t "Written by"}} {{name}}"><small class="text-muted"><a href="{{url}}" title="{{t "Written by"}} {{name}}" class="text-muted author-name">{{name}}</small></a>
-                          <i class="fas fa-circle"></i>
-                      {{/foreach}}
-                      <small class="text-muted">
-                          <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
-                          <i class="fas fa-circle"></i>
-                    </small>
-                    {{#if featured}}
-                    <span class="badge-featured">
-                      <i class="far fa-star"></i> {{t "Featured"}}
-                    </span>
-                {{/if}}     
-                  </div>
-                <p class="card-text">{{excerpt words="52"}}...</p>
-              </div>
-        <a class="btn btn-outline-dark d-block read-more-btn" href="{{url}}">{{t "Read More"}}</a>
+  <div class="card">
+    <div class="col">
+      <div class="card-block">
+        <h2 class="card-title text-center"><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
+        <div class="card-actions-top text-center">
+          {{#foreach tags}}
+          <a href="{{@site.url}}/tag/{{name}}" class="post-item-main">#{{name}}</a>
+          {{/foreach}}
         </div>
-      </div>  
-      <hr class="post-seperator" />
+        <p class="card-text">{{excerpt words="52"}}...</p>
+      </div>
+      <div class="post-options">
+        <a class="post-options" href="{{url}}">{{t "Read More"}}</a>
+        <time datetime="{{date format=" YYYY-MM-DD"}}" class="post-item-main">{{date format="DD MMMM YYYY"}}</time>
+      </div>
+      <div class="post-author">
+        {{#foreach authors}}
+        <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset " images/fallback-user.jpg"}}{{/if}}"
+          class="homepage-avatar" alt="{{t " Written by"}} {{name}}" title="{{t " Written by"}} {{name}}">
+        <a href="{{url}}" title="{{t " Written by"}} {{name}}" class="author-name">{{name}}</a>
+        {{/foreach}}
+      </div>
+    </div>
+  </div>
   {{/foreach}}
 </div>

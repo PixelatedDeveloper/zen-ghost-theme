@@ -1,13 +1,14 @@
 <div class="template-row template-row-featured row d-flex">
-  {{#get "posts" limit="3" filter="featured:true" order="published_at desc" as |featured| }}
-    {{#foreach featured}}
-    <div class="col-md-4">
-          <a href="{{url}}">
-            <img class="d-block row-item-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" alt="{{title}}" title="{{title}}">
-          </a>
-          <p class="featured-title"><i class="far fa-star"></i> {{title}}</p>
-    </div>
+  {{#get "posts" limit="4" filter="featured:true" include="tags" order="published_at desc" as |featured| }}
+  {{#foreach featured}}
+  <div class="col-md-3">
+    {{#if tags}}<div class="tag"><a href="/tag/{{name}}">{{#primary_tag}}{{name}}{{/primary_tag}}</a></div>{{/if}}
+    <a href="{{url}}">
+      <img class="d-block row-item-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
+        images/fallback-image.jpg"}}{{/if}}" alt="{{title}}" title="{{title}}">
+    </a>
+    <p class="featured-title text-truncate">{{title}}</p>
+  </div>
   {{/foreach}}
   {{/get}}
 </div>
-  
