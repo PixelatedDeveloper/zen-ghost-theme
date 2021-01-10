@@ -21,7 +21,7 @@
       <div class="post-author">
         {{#foreach authors}}
         <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset " images/fallback-user.jpg"}}{{/if}}"
-          class="homepage-avatar" alt="{{t " Written by"}} {{name}}" title="{{t " Written by"}} {{name}}">
+          class="homepage-avatar" alt="{{t " Avatar"}} {{name}}" title="{{t " Avatar"}} {{name}}">
         <a href="{{url}}" title="{{t " Written by"}} {{name}}" class="author-name">{{name}}</a>
         {{/foreach}}
       </div>

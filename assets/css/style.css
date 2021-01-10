@@ -1085,9 +1085,10 @@ img.avatar {
 *****************************************/
 footer {
   padding: 15px;
-  width: 100%;
-  background: #222;
-  color: white;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
   font-weight: bold;
 }
 
