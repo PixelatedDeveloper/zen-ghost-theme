@@ -1100,15 +1100,6 @@ footer ul li p {
   padding: 5px;
 }
 
-footer ul li a:hover {
-  background: unset !important;
-  color: white !important;
-}
-
-footer a i {
-  color: white !important;
-}
-
 ul {
   list-style-type: none;
 }
