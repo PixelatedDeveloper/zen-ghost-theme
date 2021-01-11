@@ -178,15 +178,6 @@ p > em > a:hover {
   border-radius: 150px;
 }
 
-.navbar-expand-lg {
-  padding: 0 !important;
-}
-
-ul#navbarNav {
-  margin-bottom: 0 !important;
-  padding-left: 0 !important;
-}
-
 /* color of clickable header */
 .headerurl {
   text-decoration: none;
@@ -1128,7 +1119,7 @@ ul {
   .logo-nav {
     margin-left: 10px;
   }
-  
+
   .page-row {
     margin-top: 0;
   }
