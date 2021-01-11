@@ -768,17 +768,6 @@ iframe {
   font-family: "Hind Madurai", sans-serif !important;
 }
 
-.cat-links-hr {
-  margin-top: 7px;
-  margin-bottom: 7px;
-  clear: both;
-}
-
-.cat-links > a:hover {
-  text-decoration: underline;
-  color: var(--url-hover-color) !important;
-}
-
 .tagslist {
   margin-bottom: 35px;
 }
