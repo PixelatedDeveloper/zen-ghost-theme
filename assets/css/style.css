@@ -354,7 +354,7 @@ img.logo {
   transition: all 0.2s ease-in-out;
   object-fit: cover !important;
   width: 100%;
-  height: 200px;
+  height: 160px;
   object-position: center;
 }
 
