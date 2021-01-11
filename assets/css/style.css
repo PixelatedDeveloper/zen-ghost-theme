@@ -912,15 +912,6 @@ img.avatar {
   background: white;
 }
 
-.author-social {
-  margin-top: 50px;
-}
-
-.author-social > a > i {
-  color: black;
-  margin: 5px !important;
-}
-
 .socialauthor {
   padding: 15px;
 }
