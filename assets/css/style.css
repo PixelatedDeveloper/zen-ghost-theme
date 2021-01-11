@@ -1,4 +1,13 @@
 /* **************************************
+  Main settings
+*****************************************/
+:root {
+	/* general accent colors */
+	--accentcolor: #056c17;
+	--grey-accent: #aaa;
+  }
+
+/* **************************************
 
   GENERAL FONT / ELEMENT
 
@@ -211,7 +220,7 @@ ul#navbarNav {
 }
 
 .nav-link:hover {
-  color: #056c17 !important;
+  color: var(--accentcolor) !important;
   text-shadow: none;
 }
 
@@ -465,7 +474,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title a:hover {
-  color: #056c17 !important;
+  color: var(--accentcolor) !important;
   text-decoration: none;
 }
 
@@ -483,18 +492,18 @@ POST/ARTICLE CARD UI - main
 	font-weight: 600;
 	font-size: 11px;
 	text-transform: uppercase;
-	color: #056c17 !important;
+	color: var(--accentcolor) !important;
 }
 
 .author-name {
-  color: #aaa;
+  color: var(--grey-accent);
   text-transform: capitalize;
   font-size: 11px;
   font-weight: bold;
 }
 
 .author-name:hover {
-  color: #056c17 !important;
+  color: var(--accentcolor) !important;
 }
 
 .post-content {
@@ -1014,11 +1023,11 @@ img.avatar {
 
 .pagination li:hover {
   color: #eeeeef;
-  background: #056c17 !important;
+  background: var(--accentcolor) !important;
 }
 
 .pagination li i {
-  color: #aaa;
+  color: var(--grey-accent);
 }
 
 .pagination > a > li {
@@ -1078,11 +1087,11 @@ footer {
 
 .theme-name-footer p {
 	font-size: 11px;
-	color: #aaa;
+	color: var(--grey-accent);
 }
 
 .theme-name-footer p a {
-	color: #aaa !important;
+	color: var(--grey-accent) !important;
 	text-decoration: none;
 }
 
@@ -1100,7 +1109,7 @@ footer ul li p {
 }
 
 footer a i {
-  color: #aaa !important;
+  color: var(--grey-accent) !important;
 }
 
 ul {
