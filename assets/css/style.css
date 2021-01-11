@@ -1369,6 +1369,11 @@ ul {
 	color: var(--accent-error-color) !important;
 }
 
+.card-actions-bottom .post-options-url:hover {
+	text-decoration: none;
+	color: var(--url-color);
+}
+
 /* **************************************
 
   HANDY CLASSES
