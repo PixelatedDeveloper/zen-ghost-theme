@@ -301,6 +301,10 @@ img.logo {
   text-transform: uppercase;
 }
 
+.tag a:hover {
+	text-decoration: none;
+}
+
 .post-featured {
   filter: brightness(80%) !important;
   border: 5px solid #e39b00 !important;
