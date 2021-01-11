@@ -5,6 +5,7 @@
 	/* general accent colors */
 	--accentcolor: #056c17;
 	--grey-accent: #aaa;
+	--h-accent: #2f313d;
   }
 
 /* **************************************
@@ -25,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #2f313d;
+  color: var(--h-accent);
 }
 
 h1 {
