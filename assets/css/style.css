@@ -955,9 +955,6 @@ iframe {
 img.avatar {
   border-radius: 25px;
   width: 100%;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
   display: block;
   padding: 10px;
   z-index: 200;
