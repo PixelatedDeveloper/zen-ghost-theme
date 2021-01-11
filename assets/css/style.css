@@ -1115,13 +1115,11 @@ ul {
   }
 
   img.avatar {
-    margin-top: 20px;
     margin-left: auto !important;
     margin-right: auto !important;
     display: block;
-    float: initial;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
   }
 
   .author-bio-text {
