@@ -927,6 +927,9 @@ img.avatar {
   background: var(--grey-accent2);
   text-align: center;
   padding: 10px;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .pagination div a {
