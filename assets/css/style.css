@@ -123,7 +123,7 @@ p > em > a:hover {
 
 .post-title {
   margin-top: 35px;
-  font-family: "Hind Madurai", sans-serif;
+  font-family: "Hind Madurai", sans-serif !important;
 }
 
 .post-subitems {
