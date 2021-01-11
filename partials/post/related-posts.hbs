@@ -2,7 +2,8 @@
     {{#get "posts" limit="3" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
 
     <div class="related max-content-width">
-        <h2 class="related-header">{{t "Related"}}</h2>       
+        <h2 class="related-header">{{t "Related"}}</h2>
+        <div class="row">  
             {{#foreach related}}
                 <div class="col-sm-4">
                         <a href="{{url}}">
@@ -17,6 +18,7 @@
             {{else}}
                 <p>{{t "No related posts found"}}</p>
             {{/foreach}}
+        </div>
     </div>
 {{/get}}
 {{/is}}

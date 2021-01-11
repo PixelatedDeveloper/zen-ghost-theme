@@ -343,10 +343,6 @@ img.logo {
 
 .featured-title {
   font-weight: bold;
-  text-align: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* **************************************
@@ -365,7 +361,7 @@ img.logo {
   margin-right: auto;
   background: white;
   border: 2px solid #ebebeb;
-  border-radius: 15px;
+  border-radius: 5px;
   transition: all 0.2s ease-in-out;
   object-fit: cover !important;
   width: 100%;
