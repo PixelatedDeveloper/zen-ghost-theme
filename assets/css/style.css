@@ -930,6 +930,10 @@ img.avatar {
   margin-bottom: 10px;
 }
 
+.author-socials {
+	margin-bottom: 8px;
+}
+
 .author-bio-text {
   padding: 20px;
 }
