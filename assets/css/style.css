@@ -101,7 +101,7 @@ p > em > a {
 p > a:focus,
 p > a:hover,
 p > em > a:hover {
-  color: var(--url-hover-color) !important;
+  color: var(--accentcolor) !important;
 }
 
 .container-fluid {
