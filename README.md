@@ -1,7 +1,8 @@
-![Master version](https://img.shields.io/github/package-json/v/Canitia/cambre/master?style=flat-square)
-![Development version](https://img.shields.io/github/package-json/v/Canitia/cambre/dev?style=flat-square)
-![License](https://img.shields.io/github/license/Canitia/cambre?style=flat-square)
-[![CodeFactor](https://www.codefactor.io/repository/github/canitia/larua/badge)](https://www.codefactor.io/repository/github/canitia/cambre)
+![Master version](https://img.shields.io/github/package-json/v/Canitia/zen/master?style=flat-square)
+![License](https://img.shields.io/github/license/Canitia/zen?style=flat-square)
+
+# 'Project' Zen
+Zen is a rebuilt version of Cambre implementing newer design guidelines. To not make Cambre drasticly different i decided to seperate the two themes.
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
@@ -12,14 +13,14 @@
 - Set social media links through Ghost settings panel (they will show in the footer)
 - Translation support!
 
-# Cambre's base
-Cambre uses the following libraries;
+# Zen's base
+Zen uses the following libraries;
 - Bootstrap v4.5.x
 - JQuery
 - Font Awesome 5
 
 # Theme requirements
-- Cambre **requires** Ghost version **3.0.0** or higher to install and work as intended. 
+- Cambre **requires** Ghost version **4.0.0** or higher to install and work as intended. 
 - Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
-![Cambre main](https://github.com/canitia/cambre/raw/master/assets/screenshot-desktop.png)
+![Zen main](https://github.com/canitia/zen/raw/master/assets/screenshot-desktop.png)
