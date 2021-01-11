@@ -1077,11 +1077,6 @@ ul {
     font-size: 135%;
   }
 
-  .tag_heading {
-    padding-top: 64px;
-    height: 300px !important;
-  }
-
   .posthead-image {
     top: 0;
     min-height: 300px;
@@ -1228,26 +1223,6 @@ ul {
     color: var(--url-hover-color) !important;
   }
 
-  .tag_head_wrap {
-    height: 300px;
-  }
-
-  .tag_heading {
-    margin-top: 0;
-    height: 300px !important;
-  }
-
-  .img.logo {
-    height: 75px;
-    max-height: 75px;
-    max-width: 100%;
-  }
-
-  img.avatar {
-    width: 65px;
-    height: 65px;
-  }
-
   .logo-nav {
     margin-left: 10px;
   }
@@ -1332,10 +1307,6 @@ ul {
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-  .tag_heading {
-    margin-top: 0;
-    height: 350px !important;
-  }
 
   .tag_heading > .posttitle.posttitle-author {
     font-size: 180% !important;
