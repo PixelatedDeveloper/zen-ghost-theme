@@ -928,24 +928,26 @@ img.avatar {
   text-align: center;
 }
 
-.pagination li {
+.pagination div a {
   padding: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border: 1px solid var(--grey-accent2);
   border-radius: 5px;
   margin: 5px;
   font-weight: 600;
 }
 
-.pagination li:hover {
+.pagination div a:hover {
   color: #eeeeef;
   background: var(--accentcolor) !important;
 }
 
-.pagination li i {
+.pagination div i {
   color: var(--grey-accent);
 }
 
-.pagination > a > li {
+.pagination > a > div {
   font-weight: 600;
   border-radius: 15px;
   width: 50px;
