@@ -573,17 +573,15 @@ POST/ARTICLE HEADERS
 
 .post-content ul li {
   list-style-type: square !important;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding: 5px;
-  line-height: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 30px;
 }
 
 .post-content ol li {
-  margin-left: 40px;
-  margin-right: 40px;
-  padding: 5px;
-  line-height: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 30px;
 }
 
 .post-content a {
