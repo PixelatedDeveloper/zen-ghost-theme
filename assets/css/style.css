@@ -1213,6 +1213,10 @@ ul {
     padding: 25px;
   }
 
+  .post-subitems.text-center > i {
+	  padding: 7px;
+  }
+
   .kg-image-card.kg-width-wide,
   .kg-image-card.kg-width-full {
     margin-left: 0 !important;
