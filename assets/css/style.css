@@ -322,7 +322,8 @@ img.logo {
 	font-family: "Hind Madurai", sans-serif !important;
 	color: black !important;
 	padding: 10px;
-	font-size: 1.5em;
+	font-size: 1rem;
+	font-weight: 600;
 }
 
 .featured-title {
@@ -598,104 +599,6 @@ POST/ARTICLE HEADERS
   ARTICLE/POST LOOK-N-FEEL
 
 *****************************************/
-
-.post-template .kg-post > p:first-child {
-  font-size: 1.25em;
-  line-height: 1.5em;
-}
-
-.kg-post {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 920px;
-}
-
-.kg-embed-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1.5em 0 3em;
-  min-width: 100%;
-}
-
-.post-full-content .kg-image {
-  max-width: 100%;
-}
-
-.kg-image-card,
-.kg-gallery-card {
-  margin: 0 0 1.5em;
-}
-
-/* Preventing full-width image overlap with post image.  */
-.post-full-image + .post-full-content .kg-post *:first-child .kg-image {
-  width: 100%;
-}
-
-.kg-card.kg-image-card.kg-width-wide .kg-image {
-  width: 100%;
-}
-
-.kg-image-card.kg-width-wide {
-  position: relative;
-  margin-left: calc(-75vw / 2 + 1060px / 2);
-  margin-right: calc(-75vw / 2 + 1060px / 2);
-}
-
-.kg-image-card.kg-width-full {
-  margin-left: calc(-93vw / 2 + 1060px / 2);
-  margin-right: calc(-93vw / 2 + 1060px / 2);
-  position: relative;
-}
-
-.kg-image {
-  max-width: 100%;
-  border: 1px solid #ebebeb;
-}
-
-.kg-image-card figcaption,
-.kg-gallery-card figcaption {
-  text-align: center;
-  margin-bottom: 35px;
-  font-style: italic;
-}
-
-.post-full-content .kg-image-full + figcaption {
-  max-width: 840px;
-}
-
-.kg-embed-card .fluid-width-video-wrapper {
-  margin: 0;
-}
-
-.kg-gallery-container {
-  display: flex;
-  flex-direction: column;
-  margin: 1.5em auto;
-  max-width: 100%;
-  width: 100vw;
-}
-.kg-gallery-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.kg-gallery-image img {
-  display: block;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.kg-gallery-row:not(:first-of-type) {
-  margin: 0.75em 0 0;
-}
-
-.kg-gallery-image:not(:first-of-type) {
-  margin: 0 0 0 0.75em;
-}
-
 .post-template {
   background: white;
 }
@@ -776,6 +679,107 @@ iframe {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+
+/* Ghost specific article css */
+
+.post-template .kg-post > p:first-child {
+	font-size: 1.25em;
+	line-height: 1.5em;
+  }
+  
+  .kg-post {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 920px;
+  }
+  
+  .kg-embed-card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1.5em 0 3em;
+	min-width: 100%;
+  }
+  
+  .post-full-content .kg-image {
+	max-width: 100%;
+  }
+  
+  .kg-image-card,
+  .kg-gallery-card {
+	margin: 0 0 1.5em;
+  }
+  
+  /* Preventing full-width image overlap with post image.  */
+  .post-full-image + .post-full-content .kg-post *:first-child .kg-image {
+	width: 100%;
+  }
+  
+  .kg-card.kg-image-card.kg-width-wide .kg-image {
+	width: 100%;
+  }
+  
+  .kg-image-card.kg-width-wide {
+	position: relative;
+	margin-left: calc(-75vw / 2 + 1060px / 2);
+	margin-right: calc(-75vw / 2 + 1060px / 2);
+  }
+  
+  .kg-image-card.kg-width-full {
+	margin-left: calc(-93vw / 2 + 1060px / 2);
+	margin-right: calc(-93vw / 2 + 1060px / 2);
+	position: relative;
+  }
+  
+  .kg-image {
+	max-width: 100%;
+	border: 1px solid #ebebeb;
+  }
+  
+  .kg-image-card figcaption,
+  .kg-gallery-card figcaption {
+	text-align: center;
+	margin-bottom: 35px;
+	font-style: italic;
+  }
+  
+  .post-full-content .kg-image-full + figcaption {
+	max-width: 840px;
+  }
+  
+  .kg-embed-card .fluid-width-video-wrapper {
+	margin: 0;
+  }
+  
+  .kg-gallery-container {
+	display: flex;
+	flex-direction: column;
+	margin: 1.5em auto;
+	max-width: 100%;
+	width: 100vw;
+  }
+  .kg-gallery-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  }
+  .kg-gallery-image img {
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .kg-gallery-row:not(:first-of-type) {
+	margin: 0.75em 0 0;
+  }
+  
+  .kg-gallery-image:not(:first-of-type) {
+	margin: 0 0 0 0.75em;
+  }
+  
 
 /* **************************************
 
