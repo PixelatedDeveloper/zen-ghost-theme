@@ -315,15 +315,14 @@ img.logo {
 	padding: 10px;
 	text-transform: uppercase;
 	font-family: "Hind Madurai", sans-serif !important;
+	margin-top: 15px;
 	margin-bottom: 0;
 }
 
 .tag-description {
 	font-family: "Hind Madurai", sans-serif !important;
 	color: black !important;
-	padding: 10px;
 	font-size: 1rem;
-	font-weight: 600;
 }
 
 .featured-title {
