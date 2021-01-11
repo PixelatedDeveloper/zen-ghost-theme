@@ -785,14 +785,9 @@ iframe {
 
 .tagslist a {
 	text-decoration: none;
-	font-weight: 300;
 	color: var(--regular-white);
-	padding: 10px;
 	text-transform: uppercase;
 	background: rgba(5, 108, 23, 0.85);
-	position: absolute;
-	right: 30px;
-	top: 20px;
 	padding: 10px;
 	border-radius: 10px;
 	z-index: 10;
