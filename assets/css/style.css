@@ -1091,6 +1091,14 @@ footer {
 	color: #aaa;
 }
 
+.theme-name-footer p a {
+	color: #aaa !important;
+}
+
+.theme-name-footer p a:hover {
+	color: #000;
+}
+
 footer .row a {
   color: #979797 !important;
 }
