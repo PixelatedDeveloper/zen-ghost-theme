@@ -28,7 +28,8 @@
         {{#tag}}
         <div class="tag_heading text-center">
           <img src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "images/fallback-image.jpg"}}{{/if}}" alt="{{name}}" title="{{name}}" class="tag-image" />
-          <p class="posttitle">{{name}}</p>
+          <p class="tag-title">{{name}}</p>
+          <p class="tag-description">{{description}}</p>
         </div>
         {{/tag}}
       </div>
