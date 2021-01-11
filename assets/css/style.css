@@ -6,6 +6,7 @@
 	--accentcolor: #056c17;
 	--grey-accent: #aaa;
 	--h-accent: #2f313d;
+	--border-color: #ededed;
   }
 
 /* **************************************
@@ -54,7 +55,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ededed !important;
+  border-top: 1px solid var(--border-color) !important;
   margin-top: 0 !important;
   margin-bottom: 0px !important;
   width: 100%;
@@ -1037,7 +1038,7 @@ img.avatar {
   width: 50px;
   height: 50px;
   line-height: 48px;
-  border: 1px solid #ededed;
+  border: 1px solid var(--border-color);
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
