@@ -877,6 +877,7 @@ img.avatar {
   width: 24px;
   height: 24px;
   border-radius: 25px;
+  margin-right: 5px;
 }
 
 .avatar-page {
