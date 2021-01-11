@@ -916,12 +916,15 @@ img.avatar {
 }
 
 .author-socials {
-	margin-bottom: 8px;
 	font-size: 1.5em;
 }
 
 .author-bio-text {
   padding: 20px;
+}
+
+.author-bio-text h3 {
+    margin-bottom: 0;
 }
 
 .author-bio-text div a i {
