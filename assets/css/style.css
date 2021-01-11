@@ -1093,10 +1093,12 @@ footer {
 
 .theme-name-footer p a {
 	color: #aaa !important;
+	text-decoration: none;
 }
 
 .theme-name-footer p a:hover {
-	color: #000;
+	color: #000 !important;
+	text-decoration: none;
 }
 
 footer .row a {
