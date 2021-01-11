@@ -302,6 +302,12 @@ img.logo {
 	text-decoration: none;
 }
 
+.tag-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
 .post-featured {
   filter: brightness(80%) !important;
   border: 5px solid #e39b00 !important;
@@ -803,12 +809,9 @@ iframe {
   font-size: 2.5em;
   text-shadow: none;
   color: black !important;
-  background: white;
-  border-radius: 15px;
   padding: 10px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   z-index: 10;
-  opacity: 0.8;
   font-family: "Hind Madurai", sans-serif !important;
 }
 
