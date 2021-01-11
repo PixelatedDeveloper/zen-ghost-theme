@@ -439,7 +439,6 @@ POST/ARTICLE CARD UI - main
 	color: #979797;
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
 }
 
 .post-options-url {
