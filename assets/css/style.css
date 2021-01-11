@@ -178,28 +178,6 @@ p > em > a:hover {
   border-radius: 150px;
 }
 
-.text-main {
-  position: relative;
-  top: 375px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 18px;
-  font-weight: 300;
-  text-shadow: 2px 1px #000000;
-  z-index: 1;
-}
-
-.cover-image {
-  width: 100%;
-  object-fit: cover;
-  max-height: 350px;
-  margin-bottom: 25px;
-  position: relative;
-  top: -69px;
-}
-
 .navbar-expand-lg {
   padding: 0 !important;
 }
@@ -1150,19 +1128,7 @@ ul {
   .logo-nav {
     margin-left: 10px;
   }
-
-  .cover-image {
-    position: relative;
-    height: 200px;
-  }
-
-  .text-main {
-    top: 65px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
+  
   .page-row {
     margin-top: 0;
   }
@@ -1228,16 +1194,6 @@ ul {
 
   .tag_heading > .posttitle.posttitle-author {
     font-size: 180% !important;
-  }
-
-  .cover-image {
-    top: -155px;
-    position: relative;
-    height: 320px;
-  }
-
-  .text-main {
-    top: 65px;
   }
 
   .page-row {
