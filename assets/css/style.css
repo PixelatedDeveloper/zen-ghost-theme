@@ -160,14 +160,6 @@ p > em > a:hover,
 
 *****************************************/
 
-.logo-main {
-  position: relative;
-  top: 350px;
-  display: flex;
-  justify-content: center;
-  z-index: 1;
-}
-
 .logo-nav {
   height: 64px;
   max-width: 150px;
@@ -1136,15 +1128,6 @@ ul {
     margin-top: 0;
   }
 
-  .logo-nav {
-    height: 25px;
-    margin-left: 10px;
-  }
-
-  .logo-main {
-    top: 50px;
-  }
-
   .headerurl,
   .nav-link {
     text-shadow: none;
@@ -1337,10 +1320,6 @@ ul {
     background-position: 50% 50%;
   }
 
-  .logo-main {
-    top: 50px;
-  }
-
   .img.logo {
     height: 75px;
     max-height: 75px;
@@ -1454,10 +1433,6 @@ ul {
 
   .tag_heading > .posttitle.posttitle-author {
     font-size: 180% !important;
-  }
-
-  .logo-main {
-    top: 12vh;
   }
 
   .cover-image {
