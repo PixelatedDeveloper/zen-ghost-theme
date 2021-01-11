@@ -990,6 +990,10 @@ img.avatar {
 	font-weight: 600;
 }
 
+.related-item p {
+	padding: 3px;
+}
+
 .related .collection {
     padding-left: 0;
 }

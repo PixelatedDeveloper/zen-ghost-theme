@@ -5,7 +5,7 @@
         <h2 class="related-header">{{t "Related"}}</h2>
         <div class="row">  
             {{#foreach related}}
-                <div class="col-sm-4">
+                <div class="col-sm-4 related-item">
                         <a href="{{url}}">
                             <img class="d-block row-item-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
                                 images/fallback-image.jpg"}}{{/if}}" alt="{{title}}" title="{{title}}">
