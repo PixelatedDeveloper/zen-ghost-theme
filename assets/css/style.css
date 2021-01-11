@@ -1359,18 +1359,6 @@ ul {
     width: 100%;
   }
 
-  img.avatar {
-	margin-left: auto !important;
-	margin-right: auto !important;
-	display: block;
-	width: 100px;
-	height: 100px;
-  }
-
-  .author-bio-text {
-	  text-align: center;
-  }
-
   h1 {
     font-size: 120%;
   }
