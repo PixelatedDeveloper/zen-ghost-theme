@@ -161,6 +161,10 @@ p > em > a:hover {
   margin-top: 10px;
 }
 
+.max-content-width {
+	max-width: 720px;
+}
+
 .row.row-post {
   background-color: white !important;
 }
@@ -401,7 +405,6 @@ POST/ARTICLE CARD UI - main
 ##########################################*/
 
 .card {
-  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
   border: 0 !important;
