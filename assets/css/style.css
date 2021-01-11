@@ -885,11 +885,11 @@ iframe {
 }
 
 img.avatar {
-  border-radius: 25px;
-  width: 100%;
-  display: block;
-  padding: 10px;
-  z-index: 200;
+	border-radius: 150px;
+	width: 100%;
+	display: block;
+	padding: 10px;
+	z-index: 200;
 }
 
 .homepage-avatar {
