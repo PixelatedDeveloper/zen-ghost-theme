@@ -256,6 +256,13 @@ img.logo {
   color: black !important;
 }
 
+.nav-seperator {
+	display: flex;
+	margin: 0 15px;
+	width: 1px;
+	height: 100%;
+}
+
 .top-socials {
   position: relative;
   z-index: 9999;
@@ -947,8 +954,7 @@ iframe {
 
 img.avatar {
   border-radius: 25px;
-  width: 80px;
-  height: 80px;
+  width: 100%;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
