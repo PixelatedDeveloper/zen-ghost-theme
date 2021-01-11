@@ -129,6 +129,7 @@ p > em > a:hover {
 .post-subitems {
   margin-top: 30px;
   font-weight: 300;
+  justify-content: center !important;
 }
 
 .post-subitems.text-center > i {
