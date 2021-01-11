@@ -468,11 +468,12 @@ POST/ARTICLE CARD UI - main
 }
 
 .page-row {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  margin-top: 0;
-  background: white;
-  position: relative;
+	width: 100%;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-top: 0;
+	background: white;
+	position: relative;
 }
 
 .post-item-main > a {
@@ -756,6 +757,7 @@ iframe {
 .tag_heading {
 	margin-top: 20px;
 	padding: 20px;
+	max-width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
