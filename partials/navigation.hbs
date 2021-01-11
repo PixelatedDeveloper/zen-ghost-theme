@@ -4,7 +4,7 @@
 		<nav class="navbar navbar-expand-sm navbar-light" >
 	{{#if @site.logo}}
 		<div class="logo-fixed d-block d-sm-block d-md-block d-lg-block">
-			<a href="{{@site.url}}"><img src="{{@site.logo}}" alt="blog logo" class="logo-nav head-logo left" /></a>
+			<a href="{{@site.url}}"><img src="{{@site.logo}}" alt="{{@site.title}}'s logo" title="{{@site.title}}'s logo" class="logo-nav head-logo left" /></a>
 		</div>
 	{{else}}
 		<a href="{{@site.url}}" class="navbar-brand headerurl">{{@site.title}}</a>
