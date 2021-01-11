@@ -5,6 +5,9 @@
 	/* general accent colors */
 	--accentcolor: #056c17;
 	--grey-accent: #aaa;
+	--text-color: #000;
+	--url-color: #000;
+	--url-hover-color: #767b8d;
 	--h-accent: #2f313d;
 	--border-color: #ededed;
 
@@ -92,13 +95,13 @@ strong {
 
 p > a,
 p > em > a {
-  color: black !important;
+  color: var(--url-color) !important;
 }
 
 p > a:focus,
 p > a:hover,
 p > em > a:hover {
-  color: #767b8d !important;
+  color: var(--url-hover-color) !important;
 }
 
 .container-fluid {
@@ -133,17 +136,13 @@ p > em > a:hover {
 }
 
 .post-subitems > a {
-  color: black;
+  color: var(--url-color);
   text-decoration: none;
 }
 
 .post-subitems > a:hover {
-  color: #767b8d !important;
+  color: var(--url-hover-color) !important;
   text-decoration: underline;
-}
-
-.socialfooter-top {
-  opacity: 0.8;
 }
 
 .blog-header-image {
@@ -214,7 +213,7 @@ ul#navbarNav {
   display: block;
   font-size: 3em !important;
   position: relative;
-  color: black !important;
+  color: var(--url-color) !important;
 }
 
 .nav-item {
@@ -255,7 +254,7 @@ img.logo {
 }
 
 .nav-link {
-  color: black !important;
+  color: var(--url-color) !important;
 }
 
 .nav-seperator {
@@ -278,7 +277,7 @@ img.logo {
 }
 
 .top-div {
-  color: black;
+  color: var(--text-color);
   width: 100%;
 }
 
@@ -325,7 +324,7 @@ img.logo {
 	text-transform: uppercase;
 	font-family: "Hind Madurai", sans-serif !important;
 	text-shadow: none;
-	color: black !important;
+	color: var(--text-color) !important;
 	padding: 10px;
 	font-weight: 600;
 	margin-top: 15px;
@@ -334,7 +333,7 @@ img.logo {
 
 .tag-description {
 	font-family: "Hind Madurai", sans-serif !important;
-	color: black !important;
+	color: var(--text-color) !important;
 	font-size: 1rem;
 }
 
@@ -380,9 +379,8 @@ img.logo {
 
 .postdate > a,
 .author-profile h4,
-.text-left-title a,
-.author-url-post-head {
-  color: #b5b5b5 !important;
+.text-left-title a {
+  color: var(--url-color) !important;
 }
 
 .main-content > .text-left-title,
@@ -407,21 +405,6 @@ POST/ARTICLE CARD UI - main
   border: 0 !important;
 }
 
-.tag-row-home {
-  padding: 15px;
-}
-
-.tag-row-home a {
-  color: #979797;
-  padding: 10px;
-  text-transform: uppercase;
-}
-
-.tag-row-home a:hover {
-  text-decoration: none;
-  color: black;
-}
-
 .theme-row-top {
   margin-top: 35px;
   background: white;
@@ -437,7 +420,7 @@ POST/ARTICLE CARD UI - main
 }
 
 .card-title a {
-  color: black;
+  color: var(--url-color);
   font-weight: 700;
 }
 
@@ -447,13 +430,13 @@ POST/ARTICLE CARD UI - main
 }
 
 .post-options {
-  font-weight: 600;
-  font-size: 11px;
-  text-transform: uppercase;
-  color: #979797;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	font-weight: 600;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #979797;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .post-options-url {
@@ -511,18 +494,6 @@ POST/ARTICLE CARD UI - main
   padding-top: 32px;
 }
 
-.h3-posts {
-  margin-top: 25px;
-  text-align: center;
-}
-
-.list-group-item {
-  border-left: 0 !important;
-  border-right: 0 !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
-}
-
 /* ######################################
 
 POST/ARTICLE HEADERS
@@ -551,13 +522,13 @@ POST/ARTICLE HEADERS
 }
 
 .card-actions-top a {
-  color: black;
+  color: var(--url-color);
   text-decoration: underline;
   padding: 10px;
 }
 
 .card-actions-top a:hover {
-  color: black;
+  color: var(--url-color);
 }
 
 .post-authors {
@@ -614,7 +585,7 @@ POST/ARTICLE HEADERS
 }
 
 .post-content a {
-  color: black;
+  color: var(--url-color);
 }
 
 article {
@@ -770,7 +741,7 @@ iframe {
 }
 
 .author_wrap p {
-  color: black;
+  color: var(--text-color);
   font-family: "Hind Madurai", sans-serif !important;
   font-weight: 700;
   font-size: 125%;
@@ -794,7 +765,7 @@ iframe {
 .tag_heading > .posttitle {
   font-size: 2.5em;
   text-shadow: none;
-  color: black !important;
+  color: var(--text-color) !important;
   padding: 10px;
   text-transform: uppercase;
   z-index: 10;
@@ -809,7 +780,7 @@ iframe {
 
 .cat-links > a:hover {
   text-decoration: underline;
-  color: #767b8d !important;
+  color: var(--url-hover-color) !important;
 }
 
 .tagslist {
@@ -827,7 +798,7 @@ iframe {
 }
 
 .tagslist a:hover {
-  color: #767b8d;
+  color: var(--url-hover-color);
   text-decoration: underline;
 }
 
@@ -844,7 +815,7 @@ iframe {
 .kg-bookmark-container {
   display: flex;
   flex-wrap: wrap;
-  color: black;
+  color: var(--text-color);
   text-decoration: none;
   border: 2px solid #ebebeb;
   border-radius: 5px;
@@ -1007,7 +978,7 @@ img.avatar {
 }
 
 .pagination a li {
-  color: black !important;
+  color: var(--text-color) !important;
 }
 
 .pagination a li:hover {
@@ -1041,7 +1012,7 @@ footer {
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
-  color: black;
+  color: var(--text-color);
   font-weight: bold;
   display: flex !important;
   justify-content: space-between;
@@ -1079,7 +1050,7 @@ ul {
 }
 
 .footer a:hover {
-  color: #767b8d !important;
+  color: var(--url-hover-color) !important;
 }
 
 /* **************************************
@@ -1251,7 +1222,7 @@ ul {
     text-transform: uppercase;
     text-decoration: none;
     text-shadow: none;
-    color: #767b8d !important;
+    color: var(--url-hover-color) !important;
   }
 
   .tag_head_wrap {
@@ -1583,25 +1554,6 @@ i.fas.fa-exclamation-circle.fa-2x {
   margin-right: auto;
   margin-bottom: 3px;
   margin-top: 3px;
-}
-
-.list-group {
-  width: 100%;
-  padding: 25px !important;
-}
-
-.list-group-item-action {
-  border-left: 0 !important;
-  border-right: 0 !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
-  padding: 15px;
-  background: white;
-}
-
-.list-group-item-action .fa-facebook-square:hover,
-.list-group-item-action .fa-twitter:hover,
-.list-group-item-action .fa-rss:hover {
-  color: black !important;
 }
 
 /* add some styling to disqus */
