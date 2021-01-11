@@ -1,10 +1,10 @@
 {{#primary_author}}
 <section class="author-profile">
 <div class="row">
-    <div class="col-sm-2 col-md-2 flex-center-align">
+    <div class="col-12 col-lg-2 flex-center-align">
         <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset "images/fallback-user.jpg"}}{{/if}}" class="avatar" title="{{title}}" alt="Image of {{name}}"/> 
     </div>
-    <div class="col-sm-10 author-bio-text">
+    <div class="col-12 col-lg-10 author-bio-text">
       <h3>{{name}}</h3>
       <div class="author-socials">
         {{#if twitter}}<a href="{{twitter_url}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square fa-2x"></i></a>{{/if}}
