@@ -584,7 +584,6 @@ POST/ARTICLE HEADERS
   margin-right: 40px;
   padding: 5px;
   line-height: 35px;
-  text-align: justify;
 }
 
 .post-content a {
@@ -1139,13 +1138,6 @@ ul {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
-  }
-
-  p.text-justify {
-    padding-top: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
   }
 
   .postdate {
