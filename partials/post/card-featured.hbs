@@ -2,7 +2,7 @@
   {{#get "posts" limit="4" filter="featured:true" include="tags" order="published_at desc" as |featured| }}
   {{#foreach featured}}
   <div class="col-md-3">
-    {{#if tags}}{{#primary_tag}}<div class="tag"><a href="/tag/{{name}}" alt="{{name}}" title="{{name}}">{{name}}</a></div>{{/primary_tag}}{{/if}}
+    {{#if tags}}{{#primary_tag}}<div class="tag"><a href="/tag/{{slug}}" alt="{{name}}" title="{{name}}">{{name}}</a></div>{{/primary_tag}}{{/if}}
     <a href="{{url}}">
       <img class="d-block row-item-image" src="{{#if feature_image}}{{img_url feature_image}}{{else}}{{asset "
         images/fallback-image.jpg"}}{{/if}}" alt="{{title}}" title="{{title}}">
