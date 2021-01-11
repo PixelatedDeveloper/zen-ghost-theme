@@ -315,6 +315,7 @@ img.logo {
 	padding: 10px;
 	text-transform: uppercase;
 	font-family: "Hind Madurai", sans-serif !important;
+	margin-bottom: 0;
 }
 
 .tag-description {
