@@ -308,12 +308,6 @@ img.logo {
 	border-radius: 50px;
 }
 
-.post-featured {
-  filter: brightness(80%) !important;
-  border: 5px solid #e39b00 !important;
-  margin-top: -5px;
-}
-
 .featured-title {
   font-weight: bold;
   text-align: center;
