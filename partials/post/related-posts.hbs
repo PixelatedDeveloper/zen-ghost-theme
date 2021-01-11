@@ -2,7 +2,7 @@
     {{#get "posts" limit="5" filter="id:-{{id}}+tag:{{primary_tag.slug}}" as |related|}}
 
     <div class="related max-content-width">
-    <h2 class="h2-sidebar">{{t "Related"}}</h2>       
+    <h2 class="related-header">{{t "Related"}}</h2>       
     <ul class="collection">
         {{#foreach related}}
             <li class="collection-item"><a href="{{url}}">{{title}}</a></li>

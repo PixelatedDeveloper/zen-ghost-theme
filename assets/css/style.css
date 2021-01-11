@@ -998,6 +998,22 @@ img.avatar {
   padding-right: 10px;
 }
 
+.related-header {
+	font-weight: 600;
+}
+
+.related .collection {
+    padding-left: 0;
+}
+
+.collection-item a {
+	color: var(--url-color);
+}
+
+.collection-item a:hover {
+	color: var(--accentcolor);
+}
+
 /* **************************************
 
   FOOTER
