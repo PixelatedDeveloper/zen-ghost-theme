@@ -792,7 +792,7 @@ iframe {
 }
 
 .tagslist a:hover {
-  color: var(--url-hover-color);
+  color: var(--accentcolor);
   text-decoration: underline;
 }
 
