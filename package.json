@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Canitia/cambre.git"
+    "url": "https://github.com/Canitia/zen.git"
   },
-  "bugs": "https://github.com/Canitia/cambre.git/issues",
+  "bugs": "https://github.com/Canitia/zen.git/issues",
   "config": {
       "posts_per_page": 6
   },
