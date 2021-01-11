@@ -4,13 +4,17 @@
 :root {
 	/* general accent colors */
 	--accentcolor: #056c17;
+	--accent-error-color: #cc0000;
 	--grey-accent: #aaa;
 	--grey-accent2: #ebebeb;
+
 	--text-color: #000;
 	--url-color: #000;
 	--url-hover-color: #767b8d;
 	--h-accent: #2f313d;
+
 	--border-color: #ededed;
+
 
 	/* general colors */
 	--regular-black: #000;
@@ -109,12 +113,6 @@ p > em > a:hover {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  background: white;
-}
-
-.postdate a,
-.tag_heading {
-  color: white !important;
 }
 
 .post-head {
@@ -1356,22 +1354,15 @@ ul {
   ERROR PAGE
 
 *****************************************/
-.error {
-  background-color: orangered;
-}
-
-.row.page-row.error-row {
-  margin-bottom: 20px;
-}
-
 .card-actions-bottom {
   display: block;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.fa-exclamation-triangle {
-  margin-bottom: 50px;
+.card-actions-bottom .post-options-url {
+	padding: 20px;
+	color: var(--accent-error-color) !important;
 }
 
 /* **************************************
