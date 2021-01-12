@@ -7,8 +7,8 @@
     <div class="col-12 col-md-10 author-bio-text">
       <h3>{{name}}</h3>
       <div class="author-socials">
-        {{#if twitter}}<a href="{{twitter_url}}" target="_blank" rel="noopener noreferrer" title="{{name}}'s Twitter"><i class="fab fa-twitter-square"></i></a>{{/if}}
-        {{#if facebook}}<a href="{{facebook_url}}" target="_blank" rel="noopener noreferrer" title="{{name}}'s Facebook"><i class="fab fa-facebook-square"></i></a>{{/if}}
+          {{#if twitter}}<a href="https://twitter.com/{{twitter}}" target="_blank" rel="noopener noreferrer" class="social-icon-text social-icon-text-twt" title="{{name}}'s Twitter"><i class="fab fa-twitter-square"></i>Twitter</a>{{/if}}
+          {{#if facebook}}<a href="https://facebook.com/{{facebook}}" target="_blank" rel="noopener noreferrer" class="social-icon-text social-icon-text-fb" title="{{name}}'s Facebook"><i class="fab fa-facebook-square"></i>Facebook</a>{{/if}}
       </div>
       {{#if bio}}
         {{bio}}

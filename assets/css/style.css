@@ -883,10 +883,6 @@ img.avatar {
     margin-bottom: 0;
 }
 
-.author-bio-text div a i {
-	color: var(--grey-accent);
-}
-
 /* **************************************
 
   PAGINATION
