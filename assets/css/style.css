@@ -694,6 +694,30 @@ iframe {
   font-size: 125%;
 }
 
+/* social icons author wrapper (author page) */
+.social-icon-text {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.social-icon-text:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.social-icon-text-twt {
+  background: #1dcaff;
+}
+
+.social-icon-text-fb {
+  background: #3b5998;
+}
+
 .tag_head_wrap {
   background-size: cover;
   background-repeat: no-repeat;
@@ -857,10 +881,6 @@ img.avatar {
 
 .author-bio-text h3 {
     margin-bottom: 0;
-}
-
-.author-bio-text div a i {
-	color: var(--grey-accent);
 }
 
 /* **************************************
@@ -1291,10 +1311,6 @@ EXTERNAL libraries look-n-feel
   margin-right: 20px;
 }
 
-.fa-facebook-square {
-  color: #3b5998;
-}
-
 .fa-facebook-square:hover,
 footer div a .fa-facebook-square:hover {
   color: #3b5998 !important;
@@ -1303,10 +1319,6 @@ footer div a .fa-facebook-square:hover {
 .fa-twitter-square:hover,
 footer div a .fa-twitter-square:hover {
   color: #1dcaff !important;
-}
-
-.fa-rss-square {
-  color: #f26522;
 }
 
 .fa-rss-square:hover,
