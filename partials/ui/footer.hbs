@@ -5,10 +5,10 @@
 <div class="row">
     <a href="{{@site.url}}/rss" title="RSS"><i class="fas fa-rss-square"></i></a>
     {{#if @site.twitter}}
-      <a href="https://twitter.com/{{@site.twitter}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a>
+      <a href="https://twitter.com/{{@site.twitter}}" target="_blank" rel="noopener noreferrer" title="{{t "Go to"}} {{@site.twitter}}'s Facebook"><i class="fab fa-twitter-square"></i></a>
     {{/if}}  
     {{#if @site.facebook}}
-      <a href="https://facebook.com/{{@site.facebook}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://facebook.com/{{@site.facebook}}" target="_blank" rel="noopener noreferrer" title="{{t "Go to"}} {{@site.facebook}}'s Twitter"><i class="fab fa-facebook-square"></i></a>
     {{/if}}  
 </div>
 
