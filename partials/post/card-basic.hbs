@@ -17,7 +17,7 @@
         {{#foreach authors}}
         <img src="{{#if profile_image}}{{img_url profile_image}}{{else}}{{asset " images/fallback-user.jpg"}}{{/if}}"
           class="homepage-avatar" alt="{{name}}" title="{{name}}">
-        <a href="{{url}}" title="{{t " Written by"}} {{name}}" class="author-name">{{name}}</a>
+        <a href="{{url}}" title="{{t "Written by"}} {{name}}" class="author-name">{{name}}</a>
         {{/foreach}}
       </div>
       </div>
