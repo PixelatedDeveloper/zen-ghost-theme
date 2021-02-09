@@ -1,5 +1,5 @@
-![Master version](https://img.shields.io/github/package-json/v/Canitia/zen/master?style=flat-square)
-![License](https://img.shields.io/github/license/Canitia/zen?style=flat-square)
+![Master version](https://img.shields.io/github/package-json/v/PixelatedDeveloper/zen/master?style=flat-square)
+![License](https://img.shields.io/github/license/PixelatedDeveloper/zen?style=flat-square)
 
 # 'Project' Zen
 Zen is a rebuilt version of Cambre implementing newer design guidelines. To not make Cambre drasticly different i decided to seperate the two themes.
@@ -23,4 +23,4 @@ Zen uses the following libraries;
 - Cambre **requires** Ghost version **4.0.0** or higher to install and work as intended. 
 - Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
-![Zen main](https://github.com/canitia/zen/raw/master/assets/screenshot-desktop.png)
+![Zen main](https://github.com/PixelatedDeveloper/zen/raw/master/assets/screenshot-desktop.png)
