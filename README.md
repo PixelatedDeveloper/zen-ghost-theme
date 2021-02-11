@@ -15,12 +15,12 @@ Zen is a rebuilt version of Cambre implementing newer design guidelines. To not 
 
 # Zen's base
 Zen uses the following libraries;
-- Bootstrap v4.5.x
+- Bootstrap v4.6.x
 - JQuery
 - Font Awesome 5
 
 # Theme requirements
-- Cambre **requires** Ghost version **4.0.0** or higher to install and work as intended. 
+- Cambre **requires** Ghost version **3.38.0** or higher to install and work as intended. 
 - Enable the Ghost API in the Ghost settings panel -> Labs -> Ghost API for the full featureset (although it's likely on by default if you run the latest version).
 
 ![Zen main](https://github.com/PixelatedDeveloper/zen/raw/master/assets/screenshot-desktop.png)
