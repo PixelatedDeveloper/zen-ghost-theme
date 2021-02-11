@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/github/license/PixelatedDeveloper/zen?style=flat-square)
 
 # 'Project' Zen
-Zen is a rebuilt version of Cambre implementing newer design guidelines. To not make Cambre drasticly different i decided to seperate the two themes.
+Zen is a rebuilt version of Cambre implementing newer design guidelines and a fresher look into the 2020s.
 
 ## 📷 Screenshot
 ![Zen main](https://github.com/PixelatedDeveloper/zen/raw/master/assets/screenshot-desktop.png)
